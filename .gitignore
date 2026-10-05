@@ -1,0 +1,27 @@
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Personal inputs and generated notes
+/学习笔记.md
+/学习笔记.txt
+/知识卡片.md
+/input/
+/output/
+/upload/
+
+# Temporary development and test files
+/card-test-inputs/
+/card-test-output-*.md
+/card-test-revised-*.md
+*.tmp
+*.bak
+*.swp
+*~
+__pycache__/
+
+# Operating system files
+.DS_Store
+Thumbs.db

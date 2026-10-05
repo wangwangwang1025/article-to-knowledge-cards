@@ -1,0 +1,4 @@
+interface:
+  display_name: "make_knowledge_cards"
+  short_description: "将文章和本地 Markdown/TXT 转为忠于原文、去重且单知识点的卡片"
+  default_prompt: "请使用 $make-knowledge-cards 将我提供的文章或本地 Markdown/TXT 文件整理为 5~8 张知识卡片；信息不足时减少张数，每张只讲一个知识点，不补充原文之外的信息。"
