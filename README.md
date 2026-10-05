@@ -39,7 +39,7 @@ Test-Path (Join-Path $skillParent "make-knowledge-cards\SKILL.md")
 
 以上命令针对原生 Windows。若使用 WSL、Linux 或 macOS，应把该目录放入**实际运行 Codex 的环境**中的 `~/.agents/skills`，并提供该环境能读取的文章路径。
 
-安装说明依据官方文档；本项目未在你的 Windows 电脑上执行这些命令。已有同名安装时，可用本项目目录中的两个文件更新对应文件。
+安装目录应以 Codex 实际运行的环境为准。已有同名安装时，可用本项目目录中的两个文件更新对应文件。
 
 ### 在当前项目中直接使用
 
@@ -148,4 +148,4 @@ python "工具目录\scripts\quick_validate.py" ".\make-knowledge-cards"
 
 该命令在项目根目录执行。校验工具不随本项目分发，日常使用无需运行它。结构校验和有限测试不代表所有文章都能被正确处理，重要内容应对照原文检查。
 
-本项目采用 [MIT 许可证](LICENSE)。当前仅完成本地开发与测试。
+本项目采用 [MIT 许可证](LICENSE)。
